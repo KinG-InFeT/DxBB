@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+}
+.body-left {
+	background-color: black;
+	position:absolute;
+	display:block;
+	left:0px;
+	width: 20%;
+	height: absolute;
+	border: 1px solid #fff;
+	
+	font-family: Georgia, "Times New Roman", serif;
+	color: white;
+}
+
+.body-right {
+	background-color: black;
+	position:absolute;
+	right: 0%;
+	width: 80%;
+	height: absolute;
+	border: 1px solid #fff;
+	
+	font-family: Georgia, "Times New Roman", serif;
+		color: white;
+}
+
+.sections {
+	background-color: blue;
+	font-family: Georgia, "Times New Roman", serif;
+	color: white;
+	padding: 2px;
+	width: absolute;
+	height: 100%;
+}
+
+.border {
+	border: 2px inset black;
+	margin-right: 80px;
+	margin-left: 80px;
+]

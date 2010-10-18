@@ -1,0 +1,130 @@
+body
+{
+	background-color: #FFFFFF;
+	background-image: url(images/back.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+	border: 0px solid;
+}
+
+.header
+{
+	background-color: white;
+	background-image: url(images/top.gif);
+	background-repeat: no-repeat;
+	border-top: 10px solid;
+	border-left: 10px solid;
+	border-right: 10px solid;
+	border-color: white;
+	width: 760px;
+	height: 102px;
+	background-position: center;
+}
+.body {
+	border-top: 10px solid;
+	border-left: 10px solid;
+	border-right: 10px solid; 
+	border-bottom: 10px solid;
+	border-color: white;
+	width: 760px;
+	//height: 100%;
+}
+.body-left {
+	background-color: #F7F7F7; border: 1px #BFBFBF solid;
+	position:absolute;
+	
+	border-top: 10px solid;
+	border-bottom: 10px solid;
+	border-left: 1px solid;
+	border-left-color: #000000;
+	border-right: 10px solid;
+	border-color: white;
+	
+	width: 389px;
+	margin-left: 380px;
+	text-align: center;
+}
+.body-right {
+	background-color: #F7F7F7; border: 1px #BFBFBF solid;
+	position:absolute;
+	
+	border-top: 10px solid;
+	border-bottom: 10px solid;
+	border-left: 10px solid;
+	border-right: 1px solid;
+	border-right-color: #000000;
+	border-color: white;
+	
+	width: 380px;
+	margin-right: 380px;
+	text-align: center;
+}
+.sections {
+	//background-image: url(images/cellpic2.gif);
+	//background-repeat: repeat-x;
+	background-color: #F7F7F7;
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid;
+	border-color: #000000;
+	text-decoration: none; color: #000000;
+	
+	font-family: Georgia, "Times New Roman", serif;
+
+}
+
+.link {
+	background-color: url(images/cellpic2.gif);
+	
+	font-family: Georgia, "Times New Roman", serif;
+	color: #000000;
+}
+
+#menu {
+	position:absolute;
+	border:1px solid #000000;
+	border-collapse:collapse;
+	visibility:hidden;
+	z-index: 1
+}
+td.txt {
+	border:1px solid #000000;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+}
+td.txt a{
+	font-family:tahoma,arial,helvetica,sans-serif;
+	font-size:12px; font-weight:bold; 
+	color:#ffffff; 
+	text-decoration:none;
+}
+td.txt a:hover{
+	font-family:tahoma,arial,helvetica,sans-serif; 
+	font-size:12px; font-weight:bold; 
+	color:#000000; 
+	text-decoration:none;
+}
+.body-all {
+	background-color: black;
+	position:center;
+	margin-left: 80px;
+	margin-right: 80px;
+	width: 80%;
+	height: 100%;
+	
+	border : 2px inset Black;
+	
+	font-family: Georgia, "Times New Roman", serif;
+	color: white;
+}
+
+.register {
+	background-color: blue;
+	
+	font-family: Georgia, "Times New Roman", serif;
+	color: white;
+	
+	width: 50%;
+	height: 50%;
+}

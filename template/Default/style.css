@@ -1,0 +1,116 @@
+body 
+{
+	background-color: #FFFFFF;
+	background-image: url(images/back.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+	border: 0px solid;
+}
+
+.header
+{
+	background-color: white;
+	background-image: url(images/top.gif);
+	background-repeat: no-repeat;
+	border-top: 10px solid;
+	border-left: 10px solid;
+	border-right: 10px solid;
+	border-color: white;
+	width: 760px;
+	height: 102px;
+	background-position: center;
+}
+
+.body
+{
+	//background-color: white;
+	//background-image: url(images/cellpic1.gif);
+	//background-repeat: repeat-x;
+	background-color: #F7F7F7; border: 1px #BFBFBF solid;
+	border: 10px solid;
+	border-color: white;
+	width: 760px;
+	text-align: center;
+}
+
+font,th,td,p 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+a:link,a:active,a:visited 
+{
+	text-decoration: none; color : #4F4F4F; 
+}
+
+a:hover	
+{ 
+	color : #A1BA23;
+}
+
+hr 
+{ 
+	height: 0px; 
+	border: solid #D1D7DC 0px; 
+	border-top-width: 1px;
+}
+
+input,textarea, select 
+{ 
+	color : #4F4F4F; 
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif; 
+	border-color : #000000; 
+}
+
+input.post, textarea.post, select 
+{ 
+	background-color : #FFFFFF; 
+}
+
+
+input 
+{ 
+	text-indent : 2px; 
+}
+
+.left_panel {
+	border-right: 3px solid url(images/back.gif);
+}
+.footer {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/cellpic2.gif);
+	background-repeat: repeat-x;
+	text-decoration: none;
+	width: 100%;
+	border-top: 3px solid url(images/back.gif);
+	font-size: 16px;
+	text-decoration: none; color : #FFFFFF; 
+}
+a.linkfooter:link {
+	text-decoration: none; color: #FFFFFF;
+}
+a.linkfooter:visited {
+	text-decoration: none; color: #FFFFFF;
+}
+a.linkfooter:hover {
+	text-decoration: none; color: #FFFFFF;
+}
+.link_article {
+	background-image: url(images/cellpic2.gif);
+	background-repeat: repeat-x;
+	height: 22px;
+	text-decoration: none; color: #FFFFFF;
+}
+.menu {
+	background-image: url(images/cellpic2.gif);
+	background-repeat: repeat-x;
+	height: 22px;
+	width: 754px;
+	border-left: 13px solid;
+	border-right: 13px solid;
+	border-bottom: 20px solid;
+	border-color: white;
+	text-decoration: none; color: #FFFFFF;
+	font-size: 14px;
+}
