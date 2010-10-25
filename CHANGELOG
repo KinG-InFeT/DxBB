@@ -1,0 +1,29 @@
+
+
+v0.1 Beta (Release write By KinG-InFeT)
+	[FIX] Fix Multiple SQL Injection in admin.class.php :D [HOT]
+	[FIX] Fixed Multiple SQL Injection in template.class.php :D [HOT]
+	[ADD] Aggiunta possibilità della multi-installazione grazie al prefix nlle tabelle 
+	[CHANGE] Cambiate e revisionate tutte le query 
+	[REV] Revisionati TUTTI i file :D
+	[FIX] Eliminata funzione deprecata in PHP 5.3.x split() sostituita con explode()
+	[FIX] Eliminata funzione deprecata in PHP 5.3.x ereg() sostituita con preg_match()
+	[FIX] Redirect dopo il NewPost in viewTopic.php
+	[FIX] Fixed title in viewSection.php
+	[ADD] Aggiunto redirect dopo il newtopic in viewSection.php
+	[ADD] Inserito controllo inserimento Dati in viewSection.php
+	[ADD] Inserito controllo inserimento Dati in viewTopic.php
+	[FIX] Fix Title in admin.php
+	[ADD] Inserita possibilità di editare topic se si è loggaticme admin ^_^
+	[ADD] Aggiunta possibilità di cancellare Topic e Sezioni se si è Admin
+	[FIX] Fix dei servizio deleteSection() e deleteTopics() :D
+	[ADD] Aggiunto controllo per il pulsante si newTopic e NewPost in viewSection.php e viewTopic.php solo ad utenti loggati
+	[FIX] Alcuni fix al style.css del template default
+	[ADD] Aggiunto in footer in powered del CMS con la relativa versione ganzo xd
+	[ADD] Addato controllo esistenza di ID in viewTopic.php e in viewSection.php
+	[FIX] Fix closeTable in viewTopic.php :P
+	[ADD] Aggiunta la funzione per cancellare i postda admin :D
+	[CHANGE] COMPLETAMENTE RISCRITTA L'AMMINISTRAZIONE (admin.php)
+
+v0.1 Alpha (Release write By DoMinO, ShellCoder, xEdox [ DxS Team ] )
+	[=] First Release

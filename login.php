@@ -23,7 +23,7 @@
 	print $template->openDiv ("header");
 	print $template->closeDiv ();
 	print $template->openDiv ("body");
-	print $template->setMenu(split('/', $_SERVER['PHP_SELF']), 4);
+	print $template->setMenu(explode('/', $_SERVER['PHP_SELF']), 4);
 	print '<form action="login.php" method="POST">
 			<table width="100%" valign="top">
 				<tr>

@@ -4,6 +4,7 @@
 	include_once "include/mysql.class.php";
 	
 	$template = new DxTemplate();
+	$register = new User ();
 	
 	print $template->Head("Register");
 	print $template->includeCSS ("template/Default/style.tmp");
@@ -13,7 +14,10 @@
 	print $template->openDiv ("header");
 	print $template->closeDiv ();
 	print $template->openDiv ("body");
-	print $template->setMenu(split('/', $_SERVER['PHP_SELF']), 4);
+	print $template->setMenu(explode('/', $_SERVER['PHP_SELF']), 4);
+	
+	if(	$register -> is_user())
+		die("Ma Sei cretino? sei loggato e vuoi registrarti? LOL");
 	
 	print '<form method="POST">
 			<table width="100%" valign="top">

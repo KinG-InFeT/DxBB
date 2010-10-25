@@ -16,8 +16,7 @@ class MySQL {
 	public function sendQuery ($query) {
 		if (!$this -> result = @mysql_query ($query, $this -> conn)) {
 			die (mysql_error ());
-		}
-		else {
+		}else {
 			return $this -> result;
 		}
 	}

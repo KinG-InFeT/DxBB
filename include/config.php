@@ -1,12 +1,11 @@
 <?php
-	//include ("mysql.class.php");
+
+	@define("__PREFIX__","DxBB_");	//prefisso tabelle
 	
 	$date = array (
-		"db_host" => "localhost",
-		"db_user" => "wed0mg",
-		"db_pass" => "tercuvovse63",
-		"db_name" => "my_wed0mg",
+		"db_host" => "localhost", 		//host , solitamente localhost
+		"db_user" => "root", 			//username
+		"db_pass" => "",				//password
+		"db_name" => "DxBB",			//nome del database
 	);
-	
-	//$sql = new MySQL ($date["db_host"], $date["db_user"], $date["db_pass"], $date["db_name"]);
 ?>

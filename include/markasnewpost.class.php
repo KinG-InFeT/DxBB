@@ -17,32 +17,32 @@
 		
 		public function SetNewPost ($post_time)
 		{
-			if ($post_time > $_COOKIE['TimeSession'])
+			if ($post_time > @$_COOKIE['TimeSession'])
 			{
-				return true;
+				return TRUE;
 			}
-			return false;
+			return FALSE;
 		}
 		
 		public function UnsetNewPost ($id, $date_time)
 		{
-			$clickUp = unserialize ($_COOKIE['clickUp']);
-			if ($clickUp[$id] > $date_time)
+			@$clickUp = unserialize ($_COOKIE['clickUp']);
+			if (@$clickUp[$id] > @$date_time)
 			{
-				return true;
+				return TRUE;
 			}
-			return false;
+			return FALSE;
 		}
 		
 		public function SetClickUp ($id_post, $date_time)
 		{
-			$id = intval ($_COOKIE['id']);
-			$clickUp = unserialize ($_COOKIE['clickUp']);
+			@$id      = intval ($_COOKIE['id']);
+			@$clickUp = unserialize ($_COOKIE['clickUp']);
 			$clickUp[$id_post] = $date_time + 0.1;
 			$clickUp = serialize ($clickUp);
 			
 			setcookie ("clickUp", $clickUp, time () + (3600 * 24), "/");
-			$this->sql->sendQuery ("UPDATE user SET clickup = '$clickUp' WHERE id = '$id'");
+			$this->sql->sendQuery ("UPDATE ".__PREFIX__."user SET clickup = '".$clickUp."' WHERE id = '".$id."'");
 		}
 	}
 ?>

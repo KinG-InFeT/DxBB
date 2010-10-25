@@ -1,0 +1,24 @@
+DxBB
+
+=> Installazione#
+
+1) Editare il file config.php che si trova nella cartella include "/include/config.php"
+
+2) Modificare il file con i dati per la connessione al Database MySQL
+	a) Dichiarare il prefisso delle tabelle
+	b) Inserire l'host del MySQL
+	c) Inserire l'username per la connesisone al MySQL
+	d) Inserire la password perla connessione al MySQL
+	e) Inserire il nome del Database acui fai capo
+	
+3) Uppare tutti i file nel vostro spazio web
+
+4) Andare sul file install.php ed eseguirlo seguendo tuttii passaggi richiesti per la creazione dell'usente admin
+
+5) Completata l'installazione cancellare il file install.php dal vostro spazio
+
+6) Fine :D
+
+Powered By KinG-InFeT , DoMinO, ShellCoder, xEdox
+
+Sponsored By 0xProject - http://0xproject.hellospace.net/

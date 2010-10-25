@@ -23,9 +23,6 @@ body
 
 .body
 {
-	//background-color: white;
-	//background-image: url(images/cellpic1.gif);
-	//background-repeat: repeat-x;
 	background-color: #F7F7F7; border: 1px #BFBFBF solid;
 	border: 10px solid;
 	border-color: white;
@@ -40,7 +37,7 @@ font,th,td,p
 
 a:link,a:active,a:visited 
 {
-	text-decoration: none; color : #4F4F4F; 
+	text-decoration: none; color : #4F4F4F;
 }
 
 a:hover	

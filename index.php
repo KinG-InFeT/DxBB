@@ -1,7 +1,8 @@
 <?php
 	include_once ("include/template.class.php");
 	
-	$template = new DxTemplate();	
+	$template = new DxTemplate();
+	
 	print $template->Head ("Home");
 	print $template->includeCSS ("template/Default/style.tmp");
 	print $template->includeJS ("include/menu.js");
@@ -10,7 +11,7 @@
 	print $template->openDiv ("header");
 	print $template->closeDiv ();
 	print $template->openDiv ("body");
-	print $template->setMenu(split('/', $_SERVER['PHP_SELF']), 4);
+	print $template->setMenu(explode('/', $_SERVER['PHP_SELF']), 4);
 	$template->printForum ();
 	print $template->closeDiv ();
 	print $template->closeDiv();
